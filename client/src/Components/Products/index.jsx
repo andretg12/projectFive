@@ -121,7 +121,12 @@ class Products extends Component {
 												<p className="desc">{product["description"]}</p>
 											</figcaption>
 											<section className="bottom-wrap">
-												<Link to={`products/${product["_id"]}`}>Order Now</Link>
+												<Link
+													to={`products/${product["_id"]}`}
+													className="product-link"
+												>
+													Order Now
+												</Link>
 												<div className="price-wrap h5">
 													<span className="price-new">${product.price}</span>{" "}
 													<del className="price-old">${product.price * 2}</del>

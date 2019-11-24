@@ -28,7 +28,7 @@ html {
 	font-weight: 700;
 	padding: 1.25em 3.125em;
 	color: #fff;
-	background: #233EDE !important;
+	background: firebrick !important;
 	letter-spacing: 0.09375rem;
 	text-transform: uppercase;
 	flex-grow: 1
@@ -112,4 +112,9 @@ html {
 	border: 0;
 	width: 88px;
 	height: 31px;
+}
+
+.product-link {
+	color: firebrick;
+	text-decoration: none;
 }
